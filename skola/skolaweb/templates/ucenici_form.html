@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python Django dodavanje učenika</title>
+</head>
+<body>
+<h1>Unos podataka o učenicima:</h1>
+<form method='post'>
+{{form}}
+{% csrf_token %}
+<br><br>
+<input type="submit" value="Spremi"/>
+</form>
+
+
+</body>
+</html>

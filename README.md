@@ -1,25 +1,10 @@
-# GVG_django
+# GVG_django 2021
 osnovna Django web aplikacija
-PROJEKTNI ZADATCI: 
+PROJEKTNI ZADATAK:
 
-1. Osmisliti Django web aplikaciju za neki stvaran životni problem ili potrebu (trgovina, knjižnica, poduzeće, škola, vrtić, forum, chat, vođenje bilježaka, itd.) 
-
-2. Nacrtati relacijski model baze podataka 
-
-3. Prema relacijskom modelu kreirati Django ORM model (klase) 
-
-4. Kreirati barem 4 statičke stranice uz pomoć HTML-a I CSS-a 
-
-5. Svakoj toj statičkoj stranici dodijeliti neku dinamičku Django funkciju: 
-
-  a) Čitanje podataka iz baze 
-
-  b) Dodavanje novih podataka u bazu 
-
-  c) Promjena postojećih podataka u bazi 
-
-  d) Brisanje postojećih podataka u bazi 
-
- 
-
-ROK ZA PREDAJU PROJEKTA I DOKUMENTACIJE (14.4.2020) 
+1. Kreirati web aplikaciju koja će pročitati podatke iz baze podataka.
+2. Predati dokumentaciju koja mora sadržavati:
+  A) slike ekrana web aplikacije
+  B) kratki opis web aplikacije
+  C) kratko objašnjenje MVT oblikovnog obrasca - opisati models.py, views.py datoteke i templates mapu!
+  D) kratko objašnjenje virtualne okoline - čemu služi i kako nastaje

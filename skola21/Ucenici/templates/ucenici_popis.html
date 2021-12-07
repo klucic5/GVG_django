@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<title>Python Django početna stranica</title>
+</head>
+<body>
+<h1>Prikaz učenika iz baze:</h1>
+<table>     
+          <tr>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Datum rođenja</th>
+          </tr>
+          {% for u in ucenici %}
+          <tr>
+                <td>{{u.I}}</td>
+                <td>{{u.P}}</td>
+                <td>{{u.D}}</td>
+          </tr>
+          {% endfor %}
+    </table>
+    
+</body>
+</html>
